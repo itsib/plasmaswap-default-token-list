@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Wrapped Ether",
+    "address": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
+    "symbol": "WETH",
+    "decimals": 18,
+    "chainId": 42,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xd0A1E359811322d97991E03f863a0C30C2cF029C/logo.png"
+  },
+  {
+    "name": "Plasma Finance",
+    "address": "0x80593cc42d56ee7feffdb7b040aa7ee596accdea",
+    "symbol": "PPAY",
+    "decimals": 18,
+    "chainId": 42,
+    "logoURI": "https://raw.githubusercontent.com/plasmadlt/token-list/master/assets/0x054d64b73d3d8a21af3d764efd76bcaa774f3bb2.png"
+  },
+  {
+    "name": "Plasma PPAY Staking",
+    "address": "0xb6741944125082c7a73fc401733fc941b701f31e",
+    "symbol": "xPPAY",
+    "decimals": 18,
+    "chainId": 42,
+    "logoURI": "https://raw.githubusercontent.com/plasmadlt/token-list/master/assets/0x9Fd1d329BB687fef164F529f6F6DcD6f69e7b978.png"
+  },
+  {
+    "name": "USD Coin",
+    "address": "0x6eac80ad4a8fc514a5082ab52b254d91edbd0155",
+    "symbol": "USDC",
+    "decimals": 6,
+    "chainId": 42,
+    "logoURI": "https://raw.githubusercontent.com/plasmadlt/token-list/master/assets/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.png"
+  }
+]
