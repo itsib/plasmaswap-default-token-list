@@ -1,18 +1,15 @@
 const packageJson = require('../package.json');
-const schema = require('@plasma-fi/token-lists');
+const { validateTokenList } = require('@plasma-fi/token-lists');
 const { expect } = require('chai');
 const { getAddress } = require('@ethersproject/address');
-const Ajv = require('ajv');
 const buildList = require('../src/build-list');
 
-const ajv = new Ajv({ allErrors: true, format: 'full' });
-const validator = ajv.compile(schema);
 
 describe('Default List:', () => {
   const defaultTokenList = buildList();
 
   it('Validates', () => {
-    expect(validator(defaultTokenList)).to.equal(true);
+    expect(!!validateTokenList(defaultTokenList)).to.equal(true);
   });
 
   it('Contains no duplicate addresses', () => {

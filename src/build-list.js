@@ -9,7 +9,7 @@ const kovan = require("./tokens/kovan.json");
 module.exports = function buildList() {
   const parsed = version.split(".");
   return {
-    name: "Plasma Finance Default List",
+    name: "Default Token List",
     timestamp: new Date().toISOString(),
     version: {
       major: +parsed[0],
