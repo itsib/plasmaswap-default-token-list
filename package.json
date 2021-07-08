@@ -1,7 +1,7 @@
 {
   "name": "@plasma-fi/default-token-list",
   "description": "📜 The PlasmaSwap default token list",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "main": "build/default.tokenlist.json",
   "files": [
