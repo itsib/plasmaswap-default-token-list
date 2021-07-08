@@ -1,7 +1,7 @@
 {
   "name": "@plasma-fi/default-token-list",
   "description": "📜 The PlasmaSwap default token list",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "main": "build/default.tokenlist.json",
   "files": [
@@ -20,7 +20,7 @@
   "scripts": {
     "test": "mocha",
     "build": "rimraf build && mkdir -p build && node src/write.js > build/default.tokenlist.json",
-    "prepublish": "./pre-publish.sh"
+    "prepublishOnly": "./pre-publish.sh"
   },
   "devDependencies": {
     "@ethersproject/address": "^5.4.0",
